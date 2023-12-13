@@ -9,11 +9,11 @@ void main() {
           decoration: const BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                Color.fromARGB(255, 128, 0, 32),
-                Color.fromARGB(255, 115, 110, 111),
+                Color.fromARGB(255, 216, 103, 133),
+                Color.fromARGB(255, 43, 23, 27),
               ],
-              begin: Alignment.bottomCenter,
-              end: Alignment.bottomLeft,
+              begin: Alignment.topLeft,
+              end: Alignment.bottomCenter,
             ),
           ),
           child: const StartScreen(),
